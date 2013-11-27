@@ -21,6 +21,7 @@
 		B262CC3D18457DA80056F981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B262CC1F18457DA80056F981 /* UIKit.framework */; };
 		B262CC4518457DA80056F981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B262CC4318457DA80056F981 /* InfoPlist.strings */; };
 		B262CC4718457DA80056F981 /* StoryboardMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC4618457DA80056F981 /* StoryboardMapDemoTests.m */; };
+		B262CC52184582A00056F981 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC51184582A00056F981 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B262CC4218457DA80056F981 /* StoryboardMapDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardMapDemoTests-Info.plist"; sourceTree = "<group>"; };
 		B262CC4418457DA80056F981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B262CC4618457DA80056F981 /* StoryboardMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardMapDemoTests.m; sourceTree = "<group>"; };
+		B262CC50184582A00056F981 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B262CC51184582A00056F981 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				B262CC2A18457DA80056F981 /* AppDelegate.h */,
 				B262CC2B18457DA80056F981 /* AppDelegate.m */,
 				B262CC2D18457DA80056F981 /* Main.storyboard */,
+				B262CC50184582A00056F981 /* MapViewController.h */,
+				B262CC51184582A00056F981 /* MapViewController.m */,
 				B262CC3018457DA80056F981 /* ViewController.h */,
 				B262CC3118457DA80056F981 /* ViewController.m */,
 				B262CC3318457DA80056F981 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				B262CC3218457DA80056F981 /* ViewController.m in Sources */,
 				B262CC2C18457DA80056F981 /* AppDelegate.m in Sources */,
 				B262CC2818457DA80056F981 /* main.m in Sources */,
+				B262CC52184582A00056F981 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

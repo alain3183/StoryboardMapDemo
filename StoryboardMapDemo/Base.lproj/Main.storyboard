@@ -15,6 +15,18 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXn-4W-Mrp">
+                                <rect key="frame" x="137" y="470" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QGA-ZY-e6f" kind="push" id="aIo-8G-G9g"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="mqr-Yy-sJk"/>
@@ -23,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="624" y="-240"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="rBv-He-495">
             <objects>
-                <viewController id="QGA-ZY-e6f" sceneMemberID="viewController">
+                <viewController id="QGA-ZY-e6f" customClass="MapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="syT-Ue-bcp"/>
                         <viewControllerLayoutGuide type="bottom" id="HhP-lm-fry"/>
@@ -36,10 +48,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="FHc-Ln-Ls1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gP8-1c-aCO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="624" y="460"/>
+            <point key="canvasLocation" x="1076" y="-222"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ht1-6D-8hQ">
