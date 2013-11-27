@@ -22,6 +22,7 @@
 		B262CC4518457DA80056F981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B262CC4318457DA80056F981 /* InfoPlist.strings */; };
 		B262CC4718457DA80056F981 /* StoryboardMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC4618457DA80056F981 /* StoryboardMapDemoTests.m */; };
 		B262CC52184582A00056F981 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC51184582A00056F981 /* MapViewController.m */; };
+		B262CC55184587D90056F981 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC54184587D90056F981 /* Location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		B262CC4618457DA80056F981 /* StoryboardMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardMapDemoTests.m; sourceTree = "<group>"; };
 		B262CC50184582A00056F981 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		B262CC51184582A00056F981 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B262CC53184587D90056F981 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		B262CC54184587D90056F981 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				B262CC2A18457DA80056F981 /* AppDelegate.h */,
 				B262CC2B18457DA80056F981 /* AppDelegate.m */,
 				B262CC2D18457DA80056F981 /* Main.storyboard */,
+				B262CC53184587D90056F981 /* Location.h */,
+				B262CC54184587D90056F981 /* Location.m */,
 				B262CC50184582A00056F981 /* MapViewController.h */,
 				B262CC51184582A00056F981 /* MapViewController.m */,
 				B262CC3018457DA80056F981 /* ViewController.h */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B262CC3218457DA80056F981 /* ViewController.m in Sources */,
+				B262CC55184587D90056F981 /* Location.m in Sources */,
 				B262CC2C18457DA80056F981 /* AppDelegate.m in Sources */,
 				B262CC2818457DA80056F981 /* main.m in Sources */,
 				B262CC52184582A00056F981 /* MapViewController.m in Sources */,
