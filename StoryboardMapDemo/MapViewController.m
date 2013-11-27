@@ -9,6 +9,8 @@
 #import "MapViewController.h"
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "LocationDataController.h"
+#import "Location.h"
 
 
 @interface MapViewController ()
@@ -38,6 +40,20 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    LocationDataController *model = [[LocationDataController alloc] init];
+    Location *poi = [model getPointOfInterest];
+    
+    CLLocationCoordinate2D poiCoodinates;
+    poiCoodinates.latitude = poi.latitude;
+    poiCoodinates.longitude= poi.longitude;
+    
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(poiCoodinates, 750, 750);
+    
+    [self.mapView setRegion:viewRegion animated:YES];
 }
 
 @end
