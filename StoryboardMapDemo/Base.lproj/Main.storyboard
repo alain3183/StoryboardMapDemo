@@ -70,6 +70,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="FHc-Ln-Ls1"/>
+                    <connections>
+                        <outlet property="mapView" destination="Nnw-MF-tkG" id="h4b-1z-jHX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gP8-1c-aCO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -25,6 +25,7 @@
 		B262CC55184587D90056F981 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC54184587D90056F981 /* Location.m */; };
 		B262CC58184589140056F981 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC57184589140056F981 /* LocationDataController.m */; };
 		B262CC5A184596AA0056F981 /* coffeebeans.png in Resources */ = {isa = PBXBuildFile; fileRef = B262CC59184596AA0056F981 /* coffeebeans.png */; };
+		B262CC5C184643890056F981 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B262CC5B184643890056F981 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		B262CC56184589140056F981 /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
 		B262CC57184589140056F981 /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
 		B262CC59184596AA0056F981 /* coffeebeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeebeans.png; sourceTree = "<group>"; };
+		B262CC5B184643890056F981 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B262CC5C184643890056F981 /* MapKit.framework in Frameworks */,
 				B262CC1E18457DA80056F981 /* CoreGraphics.framework in Frameworks */,
 				B262CC2018457DA80056F981 /* UIKit.framework in Frameworks */,
 				B262CC1C18457DA80056F981 /* Foundation.framework in Frameworks */,
@@ -112,6 +115,7 @@
 		B262CC1A18457DA80056F981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B262CC5B184643890056F981 /* MapKit.framework */,
 				B262CC1B18457DA80056F981 /* Foundation.framework */,
 				B262CC1D18457DA80056F981 /* CoreGraphics.framework */,
 				B262CC1F18457DA80056F981 /* UIKit.framework */,
