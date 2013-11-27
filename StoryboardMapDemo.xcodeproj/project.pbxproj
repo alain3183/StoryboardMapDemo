@@ -24,6 +24,7 @@
 		B262CC52184582A00056F981 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC51184582A00056F981 /* MapViewController.m */; };
 		B262CC55184587D90056F981 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC54184587D90056F981 /* Location.m */; };
 		B262CC58184589140056F981 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = B262CC57184589140056F981 /* LocationDataController.m */; };
+		B262CC5A184596AA0056F981 /* coffeebeans.png in Resources */ = {isa = PBXBuildFile; fileRef = B262CC59184596AA0056F981 /* coffeebeans.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		B262CC54184587D90056F981 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		B262CC56184589140056F981 /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
 		B262CC57184589140056F981 /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
+		B262CC59184596AA0056F981 /* coffeebeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeebeans.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		B262CC2118457DA80056F981 /* StoryboardMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B262CC59184596AA0056F981 /* coffeebeans.png */,
 				B262CC2A18457DA80056F981 /* AppDelegate.h */,
 				B262CC2B18457DA80056F981 /* AppDelegate.m */,
 				B262CC2D18457DA80056F981 /* Main.storyboard */,
@@ -246,6 +249,7 @@
 				B262CC3418457DA80056F981 /* Images.xcassets in Resources */,
 				B262CC2618457DA80056F981 /* InfoPlist.strings in Resources */,
 				B262CC2F18457DA80056F981 /* Main.storyboard in Resources */,
+				B262CC5A184596AA0056F981 /* coffeebeans.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +482,7 @@
 				B262CC4C18457DA80056F981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B262CC4D18457DA80056F981 /* Build configuration list for PBXNativeTarget "StoryboardMapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +491,7 @@
 				B262CC4F18457DA80056F981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
